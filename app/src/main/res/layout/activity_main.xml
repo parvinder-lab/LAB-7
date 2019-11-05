@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+<TableRow
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:id="@+id/Scorekeeper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Scorekeeper"
+        style="@style/text"
+        android:textSize="25dp" />
+</TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/TEAM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team 1"
+        style="@style/text1"
+        android:textSize="19dp" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+
+            android:textSize="19dp" />
+
+    </TableRow>
+
+<TableRow>
+
+    <Button
+        android:id="@+id/button_increment1"
+        style="@style/Button"
+        android:layout_height="wrap_content"
+        android:layout_width="167dp"
+        android:text="@string/increment" />
+    </TableRow>
+<TableRow>
+
+    <Button
+        android:id="@+id/button_decrement1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="@string/Decrement"/>
+</TableRow>
+<TableRow>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team 2"
+        style="@style/text1"
+        android:textSize="19dp"/>
+</TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+
+            android:textSize="19dp" />
+
+    </TableRow>
+<TableRow>
+    <Button
+        android:id="@+id/button_increment2"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="@string/increment" />
+</TableRow>
+<TableRow>
+    <Button
+        android:id="@+id/button_decrement2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="@string/Decrement" />
+</TableRow>
+    <TableRow/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radioScoreGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <RadioButton
+                android:id="@+id/radioby1"
+                style="@style/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/radioby2"
+                style="@style/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+
+            <RadioButton
+                android:id="@+id/radioby3"
+                style="@style/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" />
+        </RadioGroup>
+    </TableRow>
+</TableLayout>

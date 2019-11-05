@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">scorekeeper</string>
+    <string name="button">Button</string>
+    <string name="increment">+</string>
+    <string name="Decrement">-</string>
+    <string name="score1_label">SCORE1</string>
+    <string name="score1_value">15</string>
+    <string name="score2_label">SCORE2</string>
+    <string name="score2_value">20</string>
+</resources>
